@@ -18,7 +18,7 @@ print(10**2)  # Potencia
 print(10 / 3)  # División con valores decimales
 print(10 // 3)  # División sin valores decimales
 print(10 % 2)  # El módulo es el residuo de una división
-print(10 + 5 * 2)
+print(10 + 5 * 2)  # Prioridad de los operadores
 
 
 # Operadores lógicos
