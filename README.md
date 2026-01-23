@@ -1,1 +1,1 @@
-# Ejercicos y prácticas de los visto en clases síncrónicas
+# Ejercicos y prácticas de lo visto en clases síncrónicas
