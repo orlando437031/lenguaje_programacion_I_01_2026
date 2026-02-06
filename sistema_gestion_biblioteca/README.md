@@ -23,7 +23,6 @@ src/
 ├── models/
 │   └── libro.py
 └── utils/
-    ├── formato.py
     └── operaciones.py
 ```
 
