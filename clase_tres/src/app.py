@@ -96,14 +96,14 @@ while i < len(estudiantes):
 
 # ? === FUNCIONES
 # Defino una función
-def sumar(a, b):
+def sumar_valores(a, b):
     # Aquí ejecuto mis instrucciones
     print("Gran total: ", a + b)
 
 # # Llamada o invocación de una función
-sumar(10, 20)
-sumar(25, 18)
-sumar(101, 120)
+sumar_valores(10, 20)
+sumar_valores(25, 18)
+sumar_valores(101, 120)
 
 # Retornar un valor
 def restar(a, b):
