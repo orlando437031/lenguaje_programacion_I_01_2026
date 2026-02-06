@@ -1,3 +1,4 @@
+"""Libros y categorías almacenadas"""
 from models.libro import Libro
 
 # Lista de libros (usa esta estructura)
