@@ -15,4 +15,11 @@ class TaskService:
         return self._task_repository.get_all()
 
     def delete_one_task(self, uuid: UUID) -> None:
-        self._task_repository.delete_one(uuid)
+        pass
+
+    def create_one_task(self, title: str, description: str) -> Task:
+        """Crea y retorna la tarea y insertada """
+        return self._task_repository.create_one(title, description)
+
+    def update_one_task(self, uuid: UUID, tle: str, description: str, complete: bool):
+        pass

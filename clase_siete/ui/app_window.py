@@ -1,4 +1,5 @@
 import tkinter as tk
+# from tkinter import ttk
 from service.task_service import TaskService
 
 class AppWindow(tk.Tk):
@@ -15,7 +16,5 @@ class AppWindow(tk.Tk):
         self.create_widgets()
 
     def create_widgets(self) -> None:
-        # print(self._task_service.get_all_task())
-
         label = tk.Label(self, text="Bienvenido a mi App")
         label.pack()
